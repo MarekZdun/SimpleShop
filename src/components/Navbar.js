@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import SignedInLinksLeft from './SignedInLinksLeft';
-import SignedInLinksRight from './SignedInLinksRight';
+import SignedOutLinksLeft from './SignedOutLinksLeft';
+import SignedOutLinksRight from './SignedOutLinksRight';
 
 const Navbar = () => {
     return (
@@ -13,8 +13,8 @@ const Navbar = () => {
                 </button>
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <SignedInLinksLeft />
-                    <SignedInLinksRight />
+                    <SignedOutLinksLeft />
+                    <SignedOutLinksRight />
                 </div>
             </div>
         </nav>

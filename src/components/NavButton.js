@@ -1,14 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const NavLink = (props) => {
+const NavButton = (props) => {
     return (
-        <li className={"nav-item ml-sm-1 " + (props.isActive ? "active" : "")}>
+        <button className={"nav-item ml-sm-1 btn btn-sm rounded-pill btn-info " + (props.isActive ? "active" : "")} type="button">
             <Link to={props.path} className="nav-link" onClick={props.onClick}>
                 {props.text}
             </Link>
-        </li>
+        </button>
     )
 }
 
-export default NavLink;
+export default NavButton;
