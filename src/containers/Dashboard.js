@@ -15,7 +15,7 @@ class Dashboard extends Component {
                     </div>
                     <div className="row">
                         <div className="col-12 vh-100 bg-info">
-                            <h1 className>SPECIAL OFFER</h1>
+                            <h1>SPECIAL OFFER</h1>
                         </div>
                     </div>
                 </div>
