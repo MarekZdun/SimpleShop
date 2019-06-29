@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import SignedOutLinksLeft from './SignedOutLinksLeft';
-import SignedOutLinksRight from './SignedOutLinksRight';
+import SignedInLinksRight from './SignedInLinksRight';
 
 const Navbar = () => {
     return (
-        <nav className="navbar fixed-top navbar-expand-sm navbar-dark" style={{backgroundColor: 'indigo'}}>
+        <nav className="navbar fixed-top navbar-expand-sm navbar-dark bg-primary">
             <div className="container">  
                 <Link to='/' className="navbar-brand">SimpleShop</Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,7 +14,7 @@ const Navbar = () => {
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <SignedOutLinksLeft />
-                    <SignedOutLinksRight />
+                    <SignedInLinksRight />
                 </div>
             </div>
         </nav>
