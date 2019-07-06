@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const Board = () => {
     return (
@@ -8,4 +8,4 @@ const Board = () => {
     )
 }
 
-export default Board;
+export default Board

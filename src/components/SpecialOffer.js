@@ -1,5 +1,5 @@
-import React from 'react';
-import ProductSummary from './ProductSummary';
+import React from 'react'
+import ProductSummary from './ProductSummary'
 
 const SpecialOffer = () => {
     return (
@@ -20,4 +20,4 @@ const SpecialOffer = () => {
     )
 }
 
-export default SpecialOffer;
+export default SpecialOffer

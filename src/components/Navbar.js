@@ -1,7 +1,7 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import SignedOutLinksLeft from './SignedOutLinksLeft';
-import SignedInLinksRight from './SignedInLinksRight';
+import React from 'react'
+import { Link } from 'react-router-dom'
+import SignedOutLinksLeft from './SignedOutLinksLeft'
+import SignedInLinksRight from './SignedInLinksRight'
 
 const Navbar = () => {
     return (
@@ -21,4 +21,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar;
+export default Navbar

@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import Notifications from '../components/Notifications';
-import Board from '../components/Board';
-import SpecialOffer from '../components/SpecialOffer';
+import React, { Component } from 'react'
+import Notifications from '../components/Notifications'
+import Board from '../components/Board'
+import SpecialOffer from '../components/SpecialOffer'
 
 class Dashboard extends Component {
     render(){
@@ -27,4 +27,4 @@ class Dashboard extends Component {
     }
 }
 
-export default Dashboard;
+export default Dashboard

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const ProductSummary = () => {
     return (
@@ -14,4 +14,4 @@ const ProductSummary = () => {
     )
 }
 
-export default ProductSummary;
+export default ProductSummary
